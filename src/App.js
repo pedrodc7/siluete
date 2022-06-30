@@ -19,22 +19,25 @@ function App() {
         </div>
 
         <div className="App-body">
-          <h1>
-            About you, all encrypted! 
-            <p/>
-            Sell and share with whom you want.  
-          </h1>
-          Siluete is a model to help you store securely information about you. Only you control this information.
-          You decide who has access to it, what they have access to and for how long.
-          Share your email, bank details, advertisement preferences and even a personality profile with a head-hunter.
-          <p/>
-          It is work in progress and the App that you can access above will be the showing how the various uses-cases take shape as the project progress.
+          <div>
+              <h1>
+                About you, all encrypted! 
+                <p/>
+                Sell and share with whom you want.  
+              </h1>
+                Siluete is a model to help you store securely information about you. Only you control this information.
+                You decide who has access to it, what they have access to and for how long.
+                Share your email, bank details, advertisement preferences and even a personality profile with a head-hunter.
+              <p/>
+                It is work in progress and the App that you can access above will be the showing how the various uses-cases take shape as the project progress.
+          </div>
+          <img className="Hero-image" src="hero.png" alt=""/>
         </div>
 
         <footer className="App-footer">
           <p>siluete, inc</p>
           <p> Chat to us on Discord</p>
-          <img src="assets/discord-icon.png"></img>
+          <img src="discord-icon.png" alt="https://discord.gg/RGWhERbk2B"></img>
         </footer>
 
       </body>
