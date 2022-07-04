@@ -11,32 +11,47 @@ function App() {
         <div className="App-topbar">
             <a className="Home-button" href="#">SILUETE</a>
             <div>
-            <a className="Menu-button" href= "#">Why</a>
-            <a className="Menu-button" href= "#">What</a>
-            <a className="Menu-button" href= "#">How</a>
-            <button className="App-button">Go to app</button>
+            <a className="Menu-button" href= "#about">About</a>
+            <a className="Menu-button" href= "#share">Share</a>
+            <a className="Menu-button" href= "#control">Control</a>
+            <a className="Menu-button" href="https://app.siluete.xyz/"> Go to app {'>'}</a>
             </div>
         </div>
 
-        <div className="App-body">
+        <div className="App-body-hero">
           <div>
-              <h1>
-                About you, all encrypted! 
-                <p/>
-                Sell and share with whom you want.  
+              <h1 id="about">
+                Information about you. Encrypted.
               </h1>
-                Siluete is a model to help you store securely information about you. Only you control this information.
-                You decide who has access to it, what they have access to and for how long.
-                Share your email, bank details, advertisement preferences and even a personality profile with a head-hunter.
-              <p/>
-                It is work in progress and the App that you can access above will be the showing how the various uses-cases take shape as the project progress.
+              Siluete helps you securely store information about you. Store personal data, advertisement preferences or a personality test results. All encrypted, all in the blockchain, all yours. 
+              
           </div>
           <img className="Hero-image" src="hero.png" alt=""/>
         </div>
 
+        <div className="App-body-right">
+              <h1 id="share">
+              Share your information and profit from it.
+              </h1>
+              <div>
+              With siluete you can share exactly what you want and with whom you want. It can be a friend or an employee. Even other entities like recruiters or advertisers. And best of all, you can get third parties wanting to pay for it, opening to door to an information marketplace about you. Like what already happens without you being paid.
+              </div>
+        </div>
+
+        <div className="App-body-right">
+              <h1 id="control">
+              You are in control 
+              </h1>
+              <div>
+              With siluete you are in complete control of everything that happens with your information. Your information is stored your information in a permissionless and trustless infrastructure. It is up to you what to do with it.
+              </div>
+        </div>
+
+
+
         <footer className="App-footer">
           <p>siluete, inc</p>
-          <p> Chat to us on Discord</p>
+          <p> Join the conversation on Discord</p>
           <img src="discord-icon.png" alt="https://discord.gg/RGWhERbk2B"></img>
         </footer>
 

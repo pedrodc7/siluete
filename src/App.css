@@ -30,6 +30,7 @@
 .Menu-button {
   color: white;
   margin-left: 30px;
+  padding-top: 50px;
   font-size: large;
   font-family: 'Open Sans';
   font-weight:bold;
@@ -51,28 +52,23 @@
   text-decoration: underline;
 }
 
-.App-button {
-  border-radius: 10px;
-  font-size: large;
-  padding: 10px 20px;
-  margin-left: 40px;
-  margin-right: 30px;
-  margin-top: 10px;
-  font-family: "Open Sans";
-
-}
-
-.App-body {
+.App-body-hero {
   display: flex;
   justify-content: space-between;
-  margin: 150px 100px;
+  margin: 100px 100px;
   font-family: "Open Sans";
+}
+
+.App-body-right {
+  margin: 100px 100px;
+  font-family: "Open Sans"
 }
 
 .Hero-image {
   width: 40%;
   padding-left: 60px;
 }
+
 
 .App-footer {
   font-family: "Open Sans";
